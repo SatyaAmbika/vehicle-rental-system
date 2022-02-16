@@ -1,0 +1,103 @@
+<DOCTYPE html>    
+<html>    
+<head> 
+     
+    <title>CONTACT </title>    
+    
+    <style type="text/css">
+      
+body, html {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-img {
+  /* The image used */
+  background-image: url("contact.jpg");
+
+  /* Control the height of the image */
+  min-height: 750px;
+
+  /* Center and scale the image nicely */
+  background-position:right;
+  background-repeat: no-repeat;
+  background-size:cover;
+  position: relative;
+}
+
+h1{
+  color: white;
+}
+/* Add styles to the form container */
+.container {
+
+  position: absolute;
+  right:850;
+  margin: 10px;
+  margin-top: 150px;
+  max-width: 400px;
+  padding: 20px;
+  background-color:;
+
+}
+
+/* Full-width input fields */
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color:greenq1;
+  color: black;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+    </style>
+    
+</head>    
+<body>  
+
+    <div class="bg-img">
+    
+  <form action="/action_page.php" class="container">
+    <h1>Contact US</h1>
+
+     <label for="Fullname"><b>FullNmae</b></label>
+    <input type="text" placeholder=" Enter FullNmae" name="Fullname" required>
+
+     <label for="Mobile Number"><b>Mobile number</b></label>
+    <input type="text" placeholder=" Enter Number" name="mobile number" required>
+
+    <label for="Email"><b>Email</b></label>
+    <input type="text" placeholder=" Enter Email" name="email" required>
+
+    <label for="messagse"><b>Message</b></label>
+    <input type="text" placeholder="Enter messagse" name="messagse" required>
+
+    <button type="submit" class="btn">Send us</button>
+          
+  </form>
+</div>   
+    
+</body>    
+</html>
